@@ -32,7 +32,7 @@ elsif memo_type == 2
   CSV.open("#{file_name}.csv", "a") do |csv|
     csv << new_content
   end
-    puts "メモが更新されました。"
+  puts "メモが更新されました。"
 else
   puts "指定されたファイルは存在しません。"
   end
